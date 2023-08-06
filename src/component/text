@@ -1,0 +1,55 @@
+1. can we use react wihtout installation?
+ans- yes , we will use cdn link 
+
+2. alternative of npm?
+and- yarn packge manager
+
+3. component?
+ans- it a piece of code  that can we reuse.It is such as funtion, but it is more powerfull than function because it has own lifecycle ,state,props,html etc.
+eg header,footer etc 
+
+4. types?
+ans- it has many types but we consider only two mainly type 1.class component 2.function component.
+        pure component, controlled component, uncontrolled component, Hoc(higer order component)
+
+5. can we use a function inside another function?
+ans-yes
+   
+     function App() {
+     function Fruit(){
+            return(
+            <>
+            <p>hello</p>
+            </>
+            )
+        }
+        return (
+            <>
+        <Fruit/>
+            </>
+        );
+}
+6. can we use react and angular project in one application?
+ ans- yes , because react is library so we can use it anywhere with angular.js and vue.js etc
+
+7. what is jsx?
+ans- Jsx stands for javascript and xml.it allows us to write Html and javascript in react. 
+
+8. can we use jsx without react?
+ans- yes , by using jsx extension file we can use jsx without react.
+
+9. why I should use jsx instead of javascript ?
+ans- jsx easily create component templates.it is faster than javascript because it performs optimization when transiting to js.
+
+10. what is state?
+ans- it is basically object . we can use it to store some data in it.
+        when we use variable, over component will not update but when  we use state then it update itself because state re-renders data but variable doesn't. we will update our state using useState.
+11. what is useState?
+ans- useState returns a statefull value and a function to update it.
+    const[state,setState]=useState();
+
+
+
+
+
+
