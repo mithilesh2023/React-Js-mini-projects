@@ -1,8 +1,8 @@
-import ClickEvent from './component/ClickEvent';
+import User from './component/User';
 function App() {
   return (
     <>
-    <ClickEvent/>
+    <User/>
     </>
   );
 }

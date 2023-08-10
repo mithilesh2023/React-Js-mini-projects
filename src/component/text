@@ -48,7 +48,24 @@ ans- it is basically object . we can use it to store some data in it.
 ans- useState returns a statefull value and a function to update it.
     const[state,setState]=useState();
 
+12. what is hooks?
+ans- hooks is used instead of life cycle method in function component.
+         with hooks, we can use class component such as state,life cylce, pure component 
 
+
+13. can we use hooks in class component?
+ans- no
+
+14. why we use useEffect() ?
+ans- 
+instead of life cycle method . we use useEffect hooks because all life cycle() is inside of useEffect.
+
+or,
+
+it allwos you to perform side action/effects in your component eg. fetching data, directly updating the DOM , timers etc.
+
+   useEffect(<function>,<dependencies>)
+   <dependencies> is optional
 
 
 
